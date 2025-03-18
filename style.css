@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Baloo Da2", cursive;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.section-1 {
+  height: 100vh;
+  background: url(./images/dark-bg.jpeg) no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  text-align: center;
+}
+
+.banner-heading {
+  margin-bottom: 4rem;
+  height: 20rem;
+}
+
+.banner-heading span {
+  font-family: "oswald", sans-serif;
+  font-size: 12rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.5);
+}
